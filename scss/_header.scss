@@ -1,0 +1,9 @@
+.header {
+    padding: 5rem;
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
