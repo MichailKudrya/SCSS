@@ -1,6 +1,7 @@
 .join {
     background: $color-black2;
     border-radius: 1rem;
+    
 
 
     &__title {
@@ -24,6 +25,7 @@
         position: relative;
         padding: 2rem 3rem;
         border-radius: 5rem;
+        max-width: 100%;
         width: 100%;
         margin-bottom: 8.2rem;
         @include text($font-base, 400, 1.6rem, 1.9rem, $color-grey1);
