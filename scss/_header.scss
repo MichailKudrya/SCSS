@@ -1,9 +1,40 @@
 .header {
     padding: 5rem;
+    @include desktop-small {
+        padding: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    &__logo {
+        @include desktop-small {
+            font-size: 1.8rem;
+        }
+    }
     &__item {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+    &__burger {
+        display: none;
+        @include desktop-small {
+            display: block;
+        }
+    }
+
+    &__nav {
+        @include desktop-small {
+            display: none;
+        }
+    }
+    &__search {
+        @include desktop-small {
+            display: none;
+        }
+    }
+    
 }
+
 
